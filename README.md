@@ -38,7 +38,7 @@ These install directly into Odoo and expose an MCP endpoint from within Odoo its
 | foggy-projects | [foggy-odoo-bridge](https://github.com/foggy-projects/foggy-odoo-bridge) | — | — | Odoo addon with governed MCP access; preserves Odoo permission model; built-in AI chat |
 | pantalytics | [odoo-mcp-pro](https://github.com/pantalytics/odoo-mcp-pro) | [mcp_server_odoo (19.0)](https://apps.odoo.com/apps/modules/19.0/mcp_server_odoo) | — | PRO App Store edition; single stable `/mcp` endpoint; build modules via AI |
 | unknown | — | [mcp_base (19.0)](https://apps.odoo.com/apps/modules/19.0/mcp_base) | — | Odoo MCP Framework; `@mcp_tool` decorator; auto-discovery on startup |
-| unknown | — | [mcp_server (17.0)](https://apps.odoo.com/apps/modules/17.0/mcp_server) / [mcp_server (19.0)](https://apps.odoo.com/apps/modules/19.0/mcp_server) | [weinni2000](https://github.com/weinni2000) | Odoo-side server component; pairs with a separate Python MCP client package |
+| Much | — | [mcp_server (17.0)](https://apps.odoo.com/apps/modules/17.0/mcp_server) / [mcp_server (19.0)](https://apps.odoo.com/apps/modules/19.0/mcp_server) | [weinni2000](https://github.com/weinni2000) | Odoo-side server component; pairs with a separate Python MCP client package |
 | OE Service | — | [oe_mcp (18.0)](https://apps.odoo.com/apps/modules/18.0/oe_mcp) | — | MCP Connector Suite; supports Anthropic Claude, OpenAI, Azure OpenAI |
 | unknown | — | [odoo_mcp (19.0)](https://apps.odoo.com/apps/modules/19.0/odoo_mcp) | — | REST API + XML-RPC endpoint; compatible with Claude, Cursor, VS Code Copilot |
 | unknown | — | [odoo_ai_mcp (19.0)](https://apps.odoo.com/apps/modules/19.0/odoo_ai_mcp) | — | AI Agent + Copilot; MCP protocol support |
