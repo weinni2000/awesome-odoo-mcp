@@ -2,7 +2,7 @@
 
 A curated list of MCP (Model Context Protocol) servers, tools, and resources for Odoo.
 
-Contributions welcome — open a PR and add your entry.
+Missing something? [Open a PR](https://github.com/weinni2000/awesome-odoo-mcp/pulls) or send a mail to [weinni2000@gmail.com](mailto:weinni2000@gmail.com).
 
 ---
 
