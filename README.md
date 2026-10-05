@@ -45,6 +45,7 @@ These install directly into Odoo and expose an MCP endpoint from within Odoo its
 | keshrath | — | [blazing_mcp_server (18.0)](https://apps.odoo.com/apps/modules/18.0/blazing_mcp_server) | — | Native Odoo MCP server; Claude, Cursor, Codex can drive Odoo directly |
 | unknown | — | [llm_mcp_server (18.0)](https://apps.odoo.com/apps/modules/18.0/llm_mcp_server) | — | LLM-focused MCP server addon |
 | unknown | — | [mcp_connector (16.0)](https://apps.odoo.com/apps/modules/16.0/mcp_connector) | — | Early MCP connector for Odoo 16 |
+| Niyu Labs | — | [niyu_mcp_server (16.0–20.0)](https://apps.odoo.com/apps/modules/19.0/niyu_mcp_server) | — | Commercial; Community & Enterprise 16–20 incl. Odoo.sh/on-prem; OAuth 2.1 + PKCE, per-user access bundles, audit log, rate limiting, IP allowlist; works with Claude, ChatGPT, Gemini, Cursor, n8n |
 
 ---
 
