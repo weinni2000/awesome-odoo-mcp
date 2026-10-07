@@ -24,9 +24,9 @@ Odoo's own MCP server, shipped with the **AI** app. Documented for Odoo 20.0 and
 
 ## External MCP Servers (standalone Python)
 
-These run as a separate process alongside your AI client (Claude Desktop, Cursor, VS Code, etc.) and connect to Odoo via XML-RPC or JSON-RPC.
+These run as a separate process alongside your AI client (Claude Desktop, Cursor, VS Code, etc.) and connect to Odoo via XML-RPC, JSON-RPC, or (Odoo 19+) the JSON-2 External API.
 
-> **Note:** Since Odoo 19.0, the XML-RPC and JSON-RPC endpoints (`/xmlrpc`, `/xmlrpc/2`, `/jsonrpc`) are deprecated and scheduled for removal in Odoo 22 (fall 2028) and Odoo Online 21.1 (winter 2027). The JSON-2 External API replaces them. See the [deprecation notice](https://www.odoo.com/documentation/19.0/developer/reference/external_rpc_api.html).
+> **Note:** Since Odoo 19.0, the XML-RPC and JSON-RPC endpoints (`/xmlrpc`, `/xmlrpc/2`, `/jsonrpc`) are deprecated and scheduled for removal in Odoo 22 (fall 2028) and Odoo Online 21.1 (winter 2027). The JSON-2 External API replaces them and is not affected by this deprecation (in the table below, AlanOgic/odoo-mcp-19 already uses JSON-2). See the [deprecation notice](https://www.odoo.com/documentation/19.0/developer/reference/external_rpc_api.html).
 
 | Vendor / Author | GitHub | Odoo App Store | Human Tested | Description |
 |---|---|---|---|---|
