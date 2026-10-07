@@ -64,6 +64,7 @@ These install directly into Odoo and expose an MCP endpoint from within Odoo its
 | unknown | — | [llm_mcp_server (18.0)](https://apps.odoo.com/apps/modules/18.0/llm_mcp_server) | — | LLM-focused MCP server addon |
 | unknown | — | [mcp_connector (16.0)](https://apps.odoo.com/apps/modules/16.0/mcp_connector) | — | Early MCP connector for Odoo 16 |
 | Niyu Labs | — | [niyu_mcp_server (16.0–20.0)](https://apps.odoo.com/apps/modules/19.0/niyu_mcp_server) | — | Commercial; Community & Enterprise 16–20 incl. Odoo.sh/on-prem; OAuth 2.1 + PKCE, per-user access bundles, audit log, rate limiting, IP allowlist; works with Claude, ChatGPT, Gemini, Cursor, n8n |
+| Brain Grain | — | [safe_mcp_connector (19.0)](https://apps.odoo.com/apps/modules/19.0/safe_mcp_connector) | — | Commercial; every create/edit returns a before→after preview with single-use confirm; customer emails held until a person approves in Odoo; deletes off by default; per-user OAuth (user's own access rights); audit log; lives at `/safe_mcp` so it coexists with other `/mcp` addons; Claude desktop/web/mobile, Claude Code, Cursor |
 
 ---
 
