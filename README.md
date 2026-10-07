@@ -6,9 +6,27 @@ Missing something? [Open a PR](https://github.com/weinni2000/awesome-odoo-mcp/pu
 
 ---
 
+## Official Odoo MCP Server (built into the AI app)
+
+Odoo's own MCP server, shipped with the **AI** app. Documented for Odoo 20.0 and Odoo Online saas-19.4 (no MCP page in the 19.0 docs). The AI module is not in the public Community repository.
+
+| Item | Details |
+|---|---|
+| Endpoint | `<database_url>/mcp` (e.g. `https://example.odoo.com/mcp`) |
+| Authentication | Static API key: My Preferences → Security → Add API Key, scope **MCP**, with an expiry period |
+| Tools | Server actions. Exposed by default: Get Fields, Get Models, MCP Retrieve initial context, Search, Read group |
+| Write access | Other tools must be exposed manually: Settings → Technical → Server Actions (developer mode) → *Usage* tab → **Available in MCP** |
+| Readonly Tool flag | Only tells the client the tool can run without user approval; it does not hide the tool |
+| Documented clients | Claude (Desktop / Code), Antigravity, Codex — via `npx mcp-remote` (Node.js required on the client) |
+| Docs | [20.0](https://www.odoo.com/documentation/20.0/applications/productivity/ai/mcp_server.html) · [saas-19.4](https://www.odoo.com/documentation/saas-19.4/applications/productivity/ai/mcp_server.html) |
+
+---
+
 ## External MCP Servers (standalone Python)
 
 These run as a separate process alongside your AI client (Claude Desktop, Cursor, VS Code, etc.) and connect to Odoo via XML-RPC or JSON-RPC.
+
+> **Note:** Since Odoo 19.0, the XML-RPC and JSON-RPC endpoints (`/xmlrpc`, `/xmlrpc/2`, `/jsonrpc`) are deprecated and scheduled for removal in Odoo 22 (fall 2028) and Odoo Online 21.1 (winter 2027). The JSON-2 External API replaces them. See the [deprecation notice](https://www.odoo.com/documentation/19.0/developer/reference/external_rpc_api.html).
 
 | Vendor / Author | GitHub | Odoo App Store | Human Tested | Description |
 |---|---|---|---|---|
@@ -53,6 +71,8 @@ These install directly into Odoo and expose an MCP endpoint from within Odoo its
 
 - [Model Context Protocol — official docs](https://modelcontextprotocol.io/)
 - [Odoo Developer Docs](https://www.odoo.com/documentation/master/developer.html)
+- [Odoo AI MCP server — official docs (20.0)](https://www.odoo.com/documentation/20.0/applications/productivity/ai/mcp_server.html)
+- [Odoo External JSON-2 API (19.0)](https://www.odoo.com/documentation/19.0/developer/reference/external_api.html)
 - [GitHub topic: odoo-mcp](https://github.com/topics/odoo-mcp)
 - [GitHub topic: odoo-mcp-server](https://github.com/topics/odoo-mcp-server)
 - [Odoo forum: How to connect Odoo to your AI using an MCP server](https://www.odoo.com/forum/help-1/how-to-connect-odoo-to-your-ai-using-an-mcp-server-297529)
