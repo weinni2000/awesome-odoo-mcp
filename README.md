@@ -68,6 +68,16 @@ These install directly into Odoo and expose an MCP endpoint from within Odoo its
 
 ---
 
+## Hosted / Managed MCP Services
+
+Hosted by the vendor: users connect their AI client to a public MCP URL and nothing runs inside Odoo or next to the client.
+
+| Vendor / Author | GitHub | Odoo App Store | Human Tested | Description |
+|---|---|---|---|---|
+| Tuqui | — | [tuqui_mcp (16.0–19.0)](https://apps.odoo.com/apps/modules/19.0/tuqui_mcp) | — | Commercial, hosted MCP at tuqui.com; nothing to install in Odoo (the app is an optional OAuth bridge), so it works on Odoo Online, Odoo.sh and on-prem, Odoo 16 to 20, Community & Enterprise; per-user OAuth, read-only by default; works in Claude, ChatGPT and its own web/mobile chat; free plan |
+
+---
+
 ## Resources
 
 - [Model Context Protocol — official docs](https://modelcontextprotocol.io/)
