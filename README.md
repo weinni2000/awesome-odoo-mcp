@@ -88,3 +88,4 @@ Hosted by the vendor: users connect their AI client to a public MCP URL and noth
 - [GitHub topic: odoo-mcp-server](https://github.com/topics/odoo-mcp-server)
 - [Odoo forum: How to connect Odoo to your AI using an MCP server](https://www.odoo.com/forum/help-1/how-to-connect-odoo-to-your-ai-using-an-mcp-server-297529)
 - [Every Odoo MCP Server Compared (2026)](https://www.pantalytics.com/post/odoo-mcp-server-comparison-2026)
+- [Case study: Odoo 19 Community, an MCP server and Claude Code replace Holded for a quarter close (Agents Finance)](https://agentsfinance.io/entries/case-odoo-community-claude-code-mcp-replaces-holded-quarter-close-2026/)
