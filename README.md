@@ -43,6 +43,33 @@ These run as a separate process alongside your AI client (Claude Desktop, Cursor
 | DalahmasDev | [odoo-sh-mcp-server](https://github.com/DalahmasDev/odoo-sh-mcp-server) | — | — | SSH-based; targets Odoo.sh with Git workflow tools for AI-assisted module dev |
 | mart337i | [odoo-dev-mcp](https://github.com/mart337i/odoo-dev-mcp) | — | — | Developer-oriented; 302+ pages of Odoo docs searchable by AI; version-aware code generation for 17–19 |
 | sarakhanx | [odoo-mcp-server](https://github.com/sarakhanx/odoo-mcp-server) | — | — | MVP / minimal implementation |
+| erpipe-org | [mcp-odoo](https://github.com/erpipe-org/mcp-odoo) | — | — | Gated writes, multi-instance; hosted version at erpipe.com |
+| rosenvladimirov | [odoo-claude-mcp](https://github.com/rosenvladimirov/odoo-claude-mcp) | — | — | Self-hosted, Odoo 15–19; 197+ tools, multi-tenant, Bulgarian localization |
+| marcfargas | [odoo-toolbox](https://github.com/marcfargas/odoo-toolbox) | — | — | TypeScript SDK, CLI, skill modules and MCP server; CI-tested against 17 and 18 |
+| infovpcs | [odoo18_mcp_project](https://github.com/infovpcs/odoo18_mcp_project) | — | — | MCP integration server for Odoo 18.0 |
+| rachmataditiya | [odoo-rust-mcp](https://github.com/rachmataditiya/odoo-rust-mcp) | — | — | Written in Rust; Odoo 14–19+ via JSON-RPC and REST API |
+| AlanOgic | [mcp-odoo-adv](https://github.com/AlanOgic/mcp-odoo-adv) | — | — | Enhanced server with STDIO, SSE and Streamable HTTP transports |
+| pandeussilvae | [mcp-odoo-panda](https://github.com/pandeussilvae/mcp-odoo-panda) | — | — | MIT; stdio and Streamable HTTP; CRUD plus custom method calls |
+| FGRibreau | [mcp-odoo](https://github.com/FGRibreau/mcp-odoo) | — | — | Odoo 19+ via the JSON-2 API |
+| altinkaya-opensource | [odoo-mcp](https://github.com/altinkaya-opensource/odoo-mcp) | — | — | No external dependencies |
+| hamzatrq | [odoo-forge](https://github.com/hamzatrq/odoo-forge) | — | — | Odoo 18 configuration engine; 71 tools in 16 categories |
+| jjaraujoa | [Odoo-AI-Client-Agent](https://github.com/jjaraujoa/Odoo-AI-Client-Agent) | — | — | Copilot, MCP server and workflow engine for Odoo 19 via native JSON-2; no custom addons |
+| parth-unjiya | [odoo-mcp-gateway](https://github.com/parth-unjiya/odoo-mcp-gateway) | — | — | Security-first, Odoo 17–19; YAML-driven security, no Odoo-side code; 27 tools, 5 resources, 7 prompts |
+| parth-unjiya | [openclaw-odoo](https://github.com/parth-unjiya/openclaw-odoo) | — | — | Odoo 19 connector: CLI, MCP server (43 tools) and OpenClaw skill; no server-side modules |
+| twtrubiks | [odoo19-mcp-server](https://github.com/twtrubiks/odoo19-mcp-server) | — | — | Odoo 19 via JSON-2 API, built with FastMCP |
+| bmya | [claude-odoo-api](https://github.com/bmya/claude-odoo-api) | — | — | Odoo 19 JSON-2 API; multi-company, image processing, retries and connection pooling |
+| techniondigitalsolutions | [odoo-mcp](https://github.com/techniondigitalsolutions/odoo-mcp) | — | — | Safety-first, Odoo 16–19; controlled changes, audit journal, rollback |
+| solutionsunity | [odoo-surface-mcp](https://github.com/solutionsunity/odoo-surface-mcp) | — | — | Gives agents the same access as a regular Odoo user |
+| oconsole | [odoo-mcp-server](https://github.com/oconsole/odoo-mcp-server) | — | — | General-purpose server for any AI agent |
+| elewa-git | [odoo-mcp-server](https://github.com/elewa-git/odoo-mcp-server) | — | — | Open-source server for Claude |
+| mah007 | [odooMCP](https://github.com/mah007/odooMCP) | — | — | Compatible with n8n and other agent frameworks |
+| avanserv | [odouche](https://github.com/avanserv/odouche) | — | — | Unofficial Odoo.sh toolkit: Python library, CLI and MCP server |
+| CData | [odoo-mcp-server-by-cdata](https://github.com/CDataSoftware/odoo-mcp-server-by-cdata) | — | — | Read-only, via the CData JDBC driver |
+| VatsalChauhan36 | [odoo-devkit-mcp](https://github.com/VatsalChauhan36/odoo-devkit-mcp) | — | — | Developer-oriented, Odoo 17–19; token-efficient structured access to code and models |
+| havmedia | [odoo-boost](https://github.com/havmedia/odoo-boost) | — | — | Developer-oriented; coding agents introspect a running Odoo instance |
+| Viindoo | [odoo-semantic-server](https://github.com/Viindoo/odoo-semantic-server) | — | — | Code intelligence: semantic graph of Odoo code exposed via MCP; client plugin in [odoo-mcp-client](https://github.com/Viindoo/odoo-mcp-client) |
+| dannyg-sys | [odoo-mcp-server](https://github.com/dannyg-sys/odoo-mcp-server) | — | — | Developer-oriented; 19 tools for server control, modules, tests and databases |
+| krishnakantjoshi | [odoo-osi-mcp](https://github.com/krishnakantjoshi/odoo-osi-mcp) | — | — | Unofficial; search and compare open-source Odoo/OCA modules before writing custom code |
 
 ---
 
@@ -64,6 +91,8 @@ These install directly into Odoo and expose an MCP endpoint from within Odoo its
 | unknown | — | [llm_mcp_server (18.0)](https://apps.odoo.com/apps/modules/18.0/llm_mcp_server) | — | LLM-focused MCP server addon |
 | unknown | — | [mcp_connector (16.0)](https://apps.odoo.com/apps/modules/16.0/mcp_connector) | — | Early MCP connector for Odoo 16 |
 | Niyu Labs | — | [niyu_mcp_server (16.0–20.0)](https://apps.odoo.com/apps/modules/19.0/niyu_mcp_server) | — | Commercial; Community & Enterprise 16–20 incl. Odoo.sh/on-prem; OAuth 2.1 + PKCE, per-user access bundles, audit log, rate limiting, IP allowlist; works with Claude, ChatGPT, Gemini, Cursor, n8n |
+| woodwosj | [OdooDevMCP](https://github.com/woodwosj/OdooDevMCP) | — | — | Odoo 19 module; gives agents terminal, database, filesystem and ORM access |
+| cicdoo | [grokoo](https://github.com/cicdoo/grokoo) | — | — | In-Odoo assistant using the xAI Grok CLI; permission-aware ORM tools and read-only SQL over a sandboxed MCP bridge |
 | Brain Grain | — | [safe_mcp_connector (19.0)](https://apps.odoo.com/apps/modules/19.0/safe_mcp_connector) | — | Commercial; every create/edit returns a before→after preview with single-use confirm; customer emails held until a person approves in Odoo; deletes off by default; per-user OAuth (user's own access rights); audit log; lives at `/safe_mcp` so it coexists with other `/mcp` addons; Claude desktop/web/mobile, Claude Code, Cursor |
 
 ---
