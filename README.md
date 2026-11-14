@@ -94,6 +94,7 @@ These install directly into Odoo and expose an MCP endpoint from within Odoo its
 | woodwosj | [OdooDevMCP](https://github.com/woodwosj/OdooDevMCP) | — | — | Odoo 19 module; gives agents terminal, database, filesystem and ORM access |
 | cicdoo | [grokoo](https://github.com/cicdoo/grokoo) | — | — | In-Odoo assistant using the xAI Grok CLI; permission-aware ORM tools and read-only SQL over a sandboxed MCP bridge |
 | Brain Grain | — | [safe_mcp_connector (19.0)](https://apps.odoo.com/apps/modules/19.0/safe_mcp_connector) | — | Commercial; every create/edit returns a before→after preview with single-use confirm; customer emails held until a person approves in Odoo; deletes off by default; per-user OAuth (user's own access rights); audit log; lives at `/safe_mcp` so it coexists with other `/mcp` addons; Claude desktop/web/mobile, Claude Code, Cursor |
+| Speak To Your Database | [odoo-bridge](https://github.com/silkflo/odoo-bridge) | [styd_odoo_bridge (15.0-20.0)](https://apps.odoo.com/apps/modules/19.0/styd_odoo_bridge) | — | Free optional module for the hosted Speak To Your Database MCP (the service also works without it, with an Odoo API key); read-only |
 
 ---
 
@@ -104,6 +105,7 @@ Hosted by the vendor: users connect their AI client to a public MCP URL and noth
 | Vendor / Author | GitHub | Odoo App Store | Human Tested | Description |
 |---|---|---|---|---|
 | Tuqui | — | [tuqui_mcp (16.0–19.0)](https://apps.odoo.com/apps/modules/19.0/tuqui_mcp) | — | Commercial, hosted MCP at tuqui.com; nothing to install in Odoo (the app is an optional OAuth bridge), so it works on Odoo Online, Odoo.sh and on-prem, Odoo 16 to 20, Community & Enterprise; per-user OAuth, read-only by default; works in Claude, ChatGPT and its own web/mobile chat; free plan |
+| Speak To Your Database | [Speak-To-Your-Database](https://github.com/silkflo/Speak-To-Your-Database) | [styd_odoo_bridge (15.0-20.0)](https://apps.odoo.com/apps/modules/19.0/styd_odoo_bridge) | — | Commercial, hosted MCP at speaktoyourdatabase.com/mcp; nothing to install in Odoo (Odoo API key, the app is an optional bridge), so it works on Odoo Online (Custom plan), Odoo.sh and on-prem, Odoo 15 to 20, Community & Enterprise; OAuth, read-only; numbers computed by queries with built-in Odoo business definitions, not by the LLM; listed in the Claude and ChatGPT directories; free trial |
 
 ---
 
