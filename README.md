@@ -94,7 +94,6 @@ These install directly into Odoo and expose an MCP endpoint from within Odoo its
 | woodwosj | [OdooDevMCP](https://github.com/woodwosj/OdooDevMCP) | — | — | Odoo 19 module; gives agents terminal, database, filesystem and ORM access |
 | cicdoo | [grokoo](https://github.com/cicdoo/grokoo) | — | — | In-Odoo assistant using the xAI Grok CLI; permission-aware ORM tools and read-only SQL over a sandboxed MCP bridge |
 | Brain Grain | — | [safe_mcp_connector (19.0)](https://apps.odoo.com/apps/modules/19.0/safe_mcp_connector) | — | Commercial; every create/edit returns a before→after preview with single-use confirm; customer emails held until a person approves in Odoo; deletes off by default; per-user OAuth (user's own access rights); audit log; lives at `/safe_mcp` so it coexists with other `/mcp` addons; Claude desktop/web/mobile, Claude Code, Cursor |
-| Speak To Your Database | [odoo-bridge](https://github.com/silkflo/odoo-bridge) | [styd_odoo_bridge (15.0-20.0)](https://apps.odoo.com/apps/modules/19.0/styd_odoo_bridge) | — | Free optional module for the hosted Speak To Your Database MCP (the service also works without it, with an Odoo API key); read-only |
 
 ---
 
