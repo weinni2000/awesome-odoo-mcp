@@ -107,6 +107,16 @@ Hosted by the vendor: users connect their AI client to a public MCP URL and noth
 
 ---
 
+## Development Environments for AI Coding Agents
+
+Platforms that give coding agents a running Odoo to build and test against, not just API access to a database.
+
+| Vendor / Author | GitHub | Odoo App Store | Human Tested | Description |
+|---|---|---|---|---|
+| Oduflow | [oduflow](https://github.com/oduflow/oduflow) | — | — | Self-hosted; source-available (free evaluation, paid commercial license). Per-branch Odoo 15–20 environments on Docker from production-copy templates; over MCP, agents (Claude Code, Codex, Cursor…) install/upgrade modules, run tests, read logs, call the ORM and log in as any user. Optional production MCP via the `odumcp` addon (Odoo 16+): reads under Odoo access rights, changes as preview plans approved in Odoo |
+
+---
+
 ## Resources
 
 - [Model Context Protocol — official docs](https://modelcontextprotocol.io/)
